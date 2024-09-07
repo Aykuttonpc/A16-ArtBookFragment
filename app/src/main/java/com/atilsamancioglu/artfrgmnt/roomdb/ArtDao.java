@@ -12,6 +12,7 @@ import java.util.List;
 import io.reactivex.rxjava3.core.Completable;
 import io.reactivex.rxjava3.core.Flowable;
 
+
 @Dao
 public interface ArtDao {
 

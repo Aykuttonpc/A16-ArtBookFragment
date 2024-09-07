@@ -19,9 +19,6 @@
         android:name="com.atilsamancioglu.artfrgmnt.view.DetailsFragment"
         android:label="fragment_details"
         tools:layout="@layout/fragment_details" >
-        <action
-            android:id="@+id/action_detailsFragment_to_listFragment"
-            app:destination="@id/listFragment" />
         <argument
             android:name="artId"
             app:argType="integer"
@@ -29,5 +26,8 @@
         <argument
             android:name="info"
             app:argType="string" />
+        <action
+            android:id="@+id/action_detailsFragment_to_listFragment"
+            app:destination="@id/listFragment" />
     </fragment>
 </navigation>
